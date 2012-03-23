@@ -1,0 +1,17 @@
+{
+  "name": "Lowlight",
+  "version": "1.0",
+  "description": "Separates the important from the not-so-important words on a page, and greys out the latter.",
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+             "128": "icon128.png" },
+  "background": { "scripts": ["background.js"] },
+  "browser_action": {
+    "default_icon": "icon48.png"
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*", "file:///*/*"
+  ]
+
+}
+
